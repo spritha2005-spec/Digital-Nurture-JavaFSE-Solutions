@@ -28,3 +28,18 @@ Cognizant Digital Nurture Java FSE Hands-on Solutions
 * UpdateEmployeeBonus
 * TransferFunds
 
+## JUnit Testing
+
+### JUnit Basic Testing
+
+* Exercise 1: Setting Up JUnit
+* Exercise 3: Assertions in JUnit
+* Exercise 4: Arrange-Act-Assert (AAA) Pattern, Test Fixtures, Setup and Teardown Methods
+
+## Mockito Testing
+
+### Mockito Hands-On Exercises
+
+* Exercise 1: Mocking and Stubbing
+* Exercise 2: Verifying Interactions
+
