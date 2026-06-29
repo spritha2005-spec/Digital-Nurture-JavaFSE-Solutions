@@ -68,3 +68,17 @@ Cognizant Digital Nurture Java FSE Hands-on Solutions
 
 * Exercise 4: Creating and Configuring a Maven Project
 
+---
+
+## Spring Data JPA
+
+### Quick Example
+
+* Spring Boot project setup using Spring Initializr
+* MySQL database configuration
+* Entity, Repository, and Service implementation
+* Data retrieval using `JpaRepository`
+
+### Theory
+
+* Difference between JPA, Hibernate and Spring Data JPA
