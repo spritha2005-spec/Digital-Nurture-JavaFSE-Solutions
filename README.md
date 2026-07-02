@@ -63,6 +63,7 @@ Cognizant Digital Nurture Java FSE Hands-on Solutions
 
 * Exercise 1: Configuring a Basic Spring Application
 * Exercise 2: Implementing Dependency Injection
+* Exercise 3: Load Country from Spring Configuration XML
 
 ### Maven
 
@@ -82,3 +83,13 @@ Cognizant Digital Nurture Java FSE Hands-on Solutions
 ### Theory
 
 * Difference between JPA, Hibernate and Spring Data JPA
+
+---
+
+## Spring REST using Spring Boot 3
+
+### RESTful Web Services
+
+* Exercise 1: Hello World RESTful Web Service
+* Exercise 2: REST - Country Web Service
+* Exercise 3: REST - Get Country Based on Country Code
