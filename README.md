@@ -90,6 +90,8 @@ Cognizant Digital Nurture Java FSE Hands-on Solutions
 
 ### RESTful Web Services
 
-* Exercise 1: Hello World RESTful Web Service
-* Exercise 2: REST - Country Web Service
-* Exercise 3: REST - Get Country Based on Country Code
+* Exercise 1: Spring Web Project using Maven
+* Exercise 2: Load Country from Spring Configuration XML
+* Exercise 3: Hello World RESTful Web Service
+* Exercise 4: Country Web Service
+* Exercise 5: Get Country Based On Country Code
