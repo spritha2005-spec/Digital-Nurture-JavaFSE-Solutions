@@ -95,3 +95,4 @@ Cognizant Digital Nurture Java FSE Hands-on Solutions
 * Exercise 3: Hello World RESTful Web Service
 * Exercise 4: Country Web Service
 * Exercise 5: Get Country Based On Country Code
+* Exercise 6: Create authentication service that returns JWT
