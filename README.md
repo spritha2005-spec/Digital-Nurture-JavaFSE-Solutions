@@ -96,3 +96,12 @@ Cognizant Digital Nurture Java FSE Hands-on Solutions
 * Exercise 4: Country Web Service
 * Exercise 5: Get Country Based On Country Code
 * Exercise 6: Create authentication service that returns JWT
+
+---
+
+## Microservices
+
+### Spring Boot Microservices
+
+* Exercise 1: Account Microservice
+* Exercise 2: Loan Microservice
