@@ -105,3 +105,41 @@ Cognizant Digital Nurture Java FSE Hands-on Solutions
 
 * Exercise 1: Account Microservice
 * Exercise 2: Loan Microservice
+
+---
+
+## Git
+
+### Git Hands-on Exercises
+
+* Exercise 1: Git Configuration and Basic Commands
+  * Git installation and configuration
+  * Configuring Notepad++ as the default Git editor
+  * Creating a local repository
+  * Adding, committing, and pushing files to a remote repository
+
+* Exercise 2: Git Ignore
+  * Creating and configuring `.gitignore`
+  * Ignoring `.log` files and log directories
+  * Tracking only required project files
+
+* Exercise 3: Branching and Merging
+  * Creating and switching branches
+  * Comparing branches
+  * Merging branches
+  * Viewing commit history
+  * Deleting merged branches
+
+* Exercise 4: Merge Conflict Resolution
+  * Creating merge conflicts
+  * Resolving conflicts manually
+  * Updating `.gitignore`
+  * Ignoring backup files
+  * Deleting merged branches after conflict resolution
+
+* Exercise 5: Cleanup and Push to Remote Repository
+  * Verifying repository status
+  * Listing available branches
+  * Pulling latest changes from the remote repository
+  * Pushing local changes to the remote repository
+  * Verifying synchronization with the remote repository
