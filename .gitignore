@@ -1,0 +1,10 @@
+# Ignore Java build folders
+**/target/
+
+# Eclipse files
+**/.classpath
+**/.project
+**/.settings/
+
+# VS Code workspace settings
+.vscode/
