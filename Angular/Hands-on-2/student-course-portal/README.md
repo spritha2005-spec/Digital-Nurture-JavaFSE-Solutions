@@ -1,75 +1,108 @@
-# Student Course Portal
+# Angular Hands-on 2 – Data Binding, Lifecycle Hooks & Component Communication
 
-## Overview
-Student Course Portal is a beginner Angular application developed as part of the Cognizant Digital Nurture 5.0 Angular Hands-on exercises.
+## Objective
 
-## Features
-- Student Course Portal navigation header
-- Home page with welcome message
-- Course List component
-- Student Profile component
-- Angular standalone components
-- Angular routing enabled
+This hands-on demonstrates Angular's core component interaction features, including data binding, lifecycle hooks, and parent-child communication by developing a dynamic Student Course Portal.
 
-## Technologies Used
-- Angular 20
-- TypeScript
-- HTML
-- CSS
+## Topics Covered
+
+- Property Binding
+- Event Binding
+- Two-Way Binding (`ngModel`)
+- Lifecycle Hooks
+  - `ngOnInit`
+  - `ngOnChanges`
+  - `ngOnDestroy`
+- `@Input` Decorator
+- `@Output` Decorator
+- `EventEmitter`
+- Parent-Child Component Communication
 
 ## Project Structure
 
 ```
 student-course-portal/
 ├── src/
-├── public/
+│   ├── app/
+│   │   ├── components/
+│   │   │   └── course-card/
+│   │   ├── pages/
+│   │   │   ├── home/
+│   │   │   └── course-list/
+│   │   ├── app.ts
+│   │   ├── app.html
+│   │   └── app.config.ts
+│   └── ...
 ├── angular.json
 ├── package.json
-├── tsconfig.json
 └── README.md
 ```
 
-## Installation
+## Features Implemented
 
-Clone the repository:
+### Task 1 – Data Binding
 
-```bash
-git clone https://github.com/spritha2005-spec/Digital-Nurture-JavaFSE-Solutions.git
-```
+- Interpolation
+- Property Binding
+- Event Binding
+- Two-Way Binding using `[(ngModel)]`
 
-Navigate to the project:
+### Task 2 – Lifecycle Hooks
 
-```bash
-cd Angular/student-course-portal
-```
+Implemented the following lifecycle hooks:
 
-Install dependencies:
+- `ngOnInit`
+- `ngOnChanges`
+- `ngOnDestroy`
+
+### Task 3 – Component Communication
+
+- Parent Component: `CourseListComponent`
+- Child Component: `CourseCardComponent`
+- Passed course data using `@Input`
+- Sent enrollment events using `@Output` and `EventEmitter`
+
+## Components
+
+- Home Component
+- Course List Component
+- Course Card Component
+
+## Technologies Used
+
+- Angular 20
+- TypeScript
+- HTML
+- CSS
+
+## How to Run
 
 ```bash
 npm install
-```
-
-Run the application:
-
-```bash
 ng serve
 ```
 
-Open your browser:
+Open the application in your browser:
 
 ```
 http://localhost:4200
 ```
 
-## Hands-on Covered
+## Expected Output
 
-- Angular CLI Installation
-- Project Structure
-- Angular Workspace
-- Components
-- Routing
-- Standalone Components
+- Student Course Portal home page
+- Search box using Two-Way Binding
+- Dynamic course cards
+- Lifecycle hook execution visible in browser console
+- Parent-child communication using `@Input` and `@Output`
+- Enrollment event updates selected course
 
-## Author
+## Learning Outcome
 
-Pritha Saha
+After completing this hands-on, you will understand:
+
+- Angular data binding techniques
+- Angular component lifecycle
+- Parent-child communication
+- Event handling using EventEmitter
+- Building reusable Angular components
