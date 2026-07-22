@@ -1,47 +1,92 @@
-# Student Course Portal
+# Angular Hands-on 3 – Directives & Pipes
 
-## Overview
-Student Course Portal is a beginner Angular application developed as part of the Cognizant Digital Nurture 5.0 Angular Hands-on exercises.
+## Objective
 
-## Features
-- Student Course Portal navigation header
-- Home page with welcome message
-- Course List component
-- Student Profile component
-- Angular standalone components
-- Angular routing enabled
+This hands-on demonstrates the implementation of Angular structural directives, attribute directives, custom directives, and custom pipes by enhancing the Student Course Portal application.
 
-## Technologies Used
-- Angular 20
-- TypeScript
-- HTML
-- CSS
+---
+
+## Topics Covered
+
+- Structural Directives
+  - *ngIf
+  - *ngFor
+  - *ngSwitch
+  - ng-template
+  - trackBy
+
+- Attribute Directives
+  - ngClass
+  - ngStyle
+
+- Custom Directive
+  - Highlight Directive
+
+- Custom Pipe
+  - CreditLabel Pipe
+
+---
+
+## Features Implemented
+
+### Task 1 – Structural Directives
+
+- Display loading message using **\*ngIf**
+- Render course cards using **\*ngFor**
+- Optimize rendering using **trackBy**
+- Display course status using **\*ngSwitch**
+- Show fallback message using **ng-template**
+
+### Task 2 – Attribute Directives
+
+- Dynamic CSS classes using **ngClass**
+- Dynamic border styling using **ngStyle**
+- Expand/Collapse course details
+- Highlight enrolled and full-credit courses
+
+### Task 3 – Custom Directive & Pipe
+
+- Created **Highlight Directive**
+- Highlight card on mouse hover
+- Created **CreditLabel Pipe**
+- Display credits as:
+  - 1 Credit
+  - 2 Credits
+  - 3 Credits
+  - No Credits
+
+---
 
 ## Project Structure
 
 ```
-student-course-portal/
-├── src/
-├── public/
-├── angular.json
-├── package.json
-├── tsconfig.json
-└── README.md
+student-course-portal
+│
+├── src
+│   ├── app
+│   │   ├── components
+│   │   │   └── course-card
+│   │   ├── directives
+│   │   │   └── highlight
+│   │   ├── pages
+│   │   │   └── course-list
+│   │   └── pipes
+│   │       └── credit-label-pipe
+│   └── ...
 ```
 
-## Installation
+---
 
-Clone the repository:
+## Technologies Used
 
-```bash
-git clone https://github.com/spritha2005-spec/Digital-Nurture-JavaFSE-Solutions.git
-```
+- Angular
+- TypeScript
+- HTML
+- CSS
 
-Navigate to the project:
+---
 
-```bash
-cd Angular/student-course-portal
-```
+## How to Run
 
 Install dependencies:
 
@@ -49,27 +94,42 @@ Install dependencies:
 npm install
 ```
 
-Run the application:
+Start the development server:
 
 ```bash
 ng serve
 ```
 
-Open your browser:
+Open the application in your browser:
 
 ```
 http://localhost:4200
 ```
 
-## Hands-on Covered
+---
 
-- Angular CLI Installation
-- Project Structure
-- Angular Workspace
-- Components
-- Routing
-- Standalone Components
+## Expected Output
 
-## Author
+- Student Course Portal homepage
+- Loading indicator
+- Course cards displayed dynamically
+- Passed/Failed/Pending badges
+- Hover highlight effect
+- Expand/Collapse details
+- Dynamic styling using ngClass and ngStyle
+- Credits displayed using the custom CreditLabel pipe
 
-Pritha Saha
+---
+
+## Learning Outcomes
+
+After completing this hands-on, you will be able to:
+
+- Use Angular structural directives
+- Apply attribute directives
+- Create custom directives
+- Build custom pipes
+- Improve UI with dynamic styling
+- Optimize rendering using trackBy
+
+---
