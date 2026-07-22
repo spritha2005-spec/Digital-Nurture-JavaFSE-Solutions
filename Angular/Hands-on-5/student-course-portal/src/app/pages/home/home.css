@@ -1,0 +1,17 @@
+h1{
+    color:#1565c0;
+}
+
+button{
+    padding:8px 18px;
+    margin-top:10px;
+}
+
+input{
+    padding:8px;
+    width:250px;
+}
+
+hr{
+    margin:20px 0;
+}
