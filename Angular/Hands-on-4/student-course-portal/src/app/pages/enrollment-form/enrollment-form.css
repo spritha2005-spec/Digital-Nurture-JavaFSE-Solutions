@@ -1,0 +1,47 @@
+form{
+
+    width:420px;
+    margin:30px auto;
+    padding:20px;
+    border:1px solid #ccc;
+    border-radius:8px;
+
+}
+
+input,
+select{
+
+    width:100%;
+    padding:8px;
+    margin-top:5px;
+
+}
+
+button{
+
+    margin-right:10px;
+    padding:8px 15px;
+
+}
+
+small{
+
+    color:red;
+    display:block;
+    margin-top:4px;
+
+}
+
+/* Validation colors */
+
+.ng-invalid.ng-touched{
+
+    border:2px solid red;
+
+}
+
+.ng-valid.ng-touched{
+
+    border:2px solid green;
+
+}
