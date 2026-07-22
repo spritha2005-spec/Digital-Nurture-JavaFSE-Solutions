@@ -1,75 +1,140 @@
-# Student Course Portal
+# Angular Hands-on 4 – Template-Driven Forms & Validation
 
-## Overview
-Student Course Portal is a beginner Angular application developed as part of the Cognizant Digital Nurture 5.0 Angular Hands-on exercises.
+## Objective
 
-## Features
-- Student Course Portal navigation header
-- Home page with welcome message
-- Course List component
-- Student Profile component
-- Angular standalone components
-- Angular routing enabled
+This hands-on demonstrates how to build a Template-Driven Form in Angular using FormsModule. It includes two-way data binding, built-in validation, error handling, form submission, and form reset functionality.
+
+---
+
+## Topics Covered
+
+- Template-Driven Forms
+- FormsModule
+- ngModel Two-Way Binding
+- ngForm
+- Built-in Validators
+  - required
+  - minlength
+  - email
+- Template Reference Variables
+- Validation Error Messages
+- Form Submission
+- Form Reset
+- Angular Form State Classes
+
+---
+
+## Features Implemented
+
+### Task 1
+
+- Created EnrollmentFormComponent
+- Added routing for `/enroll`
+- Student Enrollment Request form
+- Student Name input
+- Student Email input
+- Course ID input
+- Preferred Semester dropdown
+- Terms & Conditions checkbox
+- Two-way binding using `[(ngModel)]`
+- Form submission using `ngSubmit`
+- Submit button disabled when the form is invalid
+
+---
+
+### Task 2
+
+Added built-in validations:
+
+- Student Name
+  - Required
+  - Minimum length 3
+
+- Student Email
+  - Required
+  - Valid email format
+
+- Course ID
+  - Required
+
+- Terms & Conditions
+  - Must be checked
+
+Implemented:
+
+- Validation error messages
+- Red border for invalid controls
+- Green border for valid controls
+- Success message after successful submission
+- Reset button using `resetForm()`
+
+---
+
+## Project Structure
+
+```
+src/
+│
+├── app/
+│
+├── pages/
+│   └── enrollment-form/
+│       ├── enrollment-form.ts
+│       ├── enrollment-form.html
+│       └── enrollment-form.css
+│
+├── app.routes.ts
+│
+└── app.ts
+```
+
+---
 
 ## Technologies Used
+
 - Angular 20
 - TypeScript
 - HTML
 - CSS
 
-## Project Structure
+---
 
-```
-student-course-portal/
-├── src/
-├── public/
-├── angular.json
-├── package.json
-├── tsconfig.json
-└── README.md
-```
-
-## Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/spritha2005-spec/Digital-Nurture-JavaFSE-Solutions.git
-```
-
-Navigate to the project:
-
-```bash
-cd Angular/student-course-portal
-```
-
-Install dependencies:
+## How to Run
 
 ```bash
 npm install
-```
-
-Run the application:
-
-```bash
 ng serve
 ```
 
-Open your browser:
+Open:
 
 ```
-http://localhost:4200
+http://localhost:4200/enroll
 ```
 
-## Hands-on Covered
+---
 
-- Angular CLI Installation
-- Project Structure
-- Angular Workspace
-- Components
-- Routing
-- Standalone Components
+## Expected Output
 
-## Author
+- Student Enrollment Request form
+- Real-time validation
+- Contextual validation messages
+- Disabled submit button until form becomes valid
+- Success message after submission
+- Reset button clears the form
 
-Pritha Saha
+---
+
+## Learning Outcomes
+
+After completing this hands-on, you will understand:
+
+- Template-Driven Forms
+- FormsModule
+- ngModel
+- ngForm
+- Angular Validation
+- Built-in Validators
+- Form State Classes
+- Form Submission
+- Form Reset
